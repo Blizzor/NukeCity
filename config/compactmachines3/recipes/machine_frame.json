@@ -1,0 +1,62 @@
+{
+  "name": "custom:machine_frame",
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 560,
+
+  "catalyst": "tconstruct:clear_glass",
+
+  "input-types": {
+    "i": { 
+    "id": "minecraft:iron_block"
+  },
+	"e": { 
+    "id": "thermalfoundation:storage_alloy",
+	"meta": 1
+  },
+	"r": { 
+    "id": "minecraft:redstone_block"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["i","i","i","i","i"],
+      ["i","_","i","_","i"],
+      ["i","i","e","i","i"],
+	  ["i","_","i","_","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["i","_","i","_","i"],
+      ["_","_","_","_","_"],
+      ["i","_","r","_","i"],
+	  ["_","_","_","_","_"],
+      ["i","_","i","_","i"]
+    ],
+    [
+      ["i","i","e","i","i"],
+      ["i","_","r","_","i"],
+      ["e","r","e","r","e"],
+	  ["i","_","r","_","i"],
+      ["i","i","e","i","i"]
+    ],
+    [
+      ["i","_","i","_","i"],
+      ["_","_","_","_","_"],
+      ["i","_","r","_","i"],
+	  ["_","_","_","_","_"],
+      ["i","_","i","_","i"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","_","i","_","i"],
+      ["i","i","e","i","i"],
+	  ["i","_","i","_","i"],
+      ["i","i","i","i","i"]
+    ]
+  ]
+}

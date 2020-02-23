@@ -1,0 +1,24 @@
+{
+  "outputs": [
+    {
+      "target": "black",
+      "weight": 1000,
+      "id": "OD:oreCoal"
+    },
+    {
+      "target": "white",
+      "weight": 750,
+      "id": "OD:oreIron"
+    },
+    {
+      "target": "crystal",
+      "weight": 200,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 4,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    }
+  ]
+}

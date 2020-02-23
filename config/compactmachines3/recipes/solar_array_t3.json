@@ -1,0 +1,60 @@
+{
+  "name": "custom:solar_array_t3",
+  "target-item": "environmentaltech:solar_cont_3",
+  "target-count": 1,
+
+  "duration": 600,
+
+  "catalyst": "environmentaltech:solar_cell_kyronite",
+
+  "input-types": {
+	"c": { 
+    "id": "environmentaltech:kyronite"
+  },
+	"i": { 
+    "id": "environmentaltech:interconnect"
+  },
+	"l": { 
+    "id": "minecraft:lapis_block"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+	  ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ],
+    [
+      ["c","_","_","_","c"],
+      ["_","l","l","l","_"],
+      ["_","l","l","l","_"],
+	  ["_","l","l","l","_"],
+      ["c","_","_","_","c"]
+    ],
+    [
+      ["c","_","_","_","c"],
+      ["_","l","l","l","_"],
+      ["_","l","l","l","_"],
+	  ["_","l","l","l","_"],
+      ["c","_","_","_","c"]
+    ],
+    [
+      ["c","_","_","_","c"],
+      ["_","l","l","l","_"],
+      ["_","l","l","l","_"],
+	  ["_","l","l","l","_"],
+      ["c","_","_","_","c"]
+    ],
+    [
+      ["c","c","c","c","c"],
+      ["c","_","_","_","c"],
+      ["c","_","_","_","c"],
+	  ["c","_","_","_","c"],
+      ["c","c","c","c","c"]
+    ]
+  ]
+}

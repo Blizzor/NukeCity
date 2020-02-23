@@ -1,0 +1,63 @@
+{
+  "name": "custom:void_ore_t5",
+  "target-item": "environmentaltech:void_ore_miner_cont_5",
+  "target-count": 1,
+
+  "duration": 600,
+
+  "catalyst": "environmentaltech:diode",
+
+  "input-types": {
+    "d": { 
+    "id": "minecraft:diamond_block"
+  },
+	"c": { 
+    "id": "environmentaltech:ionite"
+  },
+	"i": { 
+    "id": "environmentaltech:interconnect"
+  },
+	"l": { 
+    "id": "environmentaltech:laser_lens"
+  }
+},
+
+"symmetrical": true,
+"shape": [
+    [
+      ["c","c","c","c","c"],
+      ["c","_","d","_","c"],
+      ["c","d","d","d","c"],
+	  ["c","_","d","_","c"],
+      ["c","c","c","c","c"]
+    ],
+    [
+      ["c","_","d","_","c"],
+      ["_","_","_","_","_"],
+      ["d","_","l","_","d"],
+	  ["_","_","_","_","_"],
+      ["c","_","d","_","c"]
+    ],
+    [
+      ["c","_","d","_","c"],
+      ["_","_","_","_","_"],
+      ["d","_","l","_","d"],
+	  ["_","_","_","_","_"],
+      ["c","_","d","_","c"]
+    ],
+    [
+      ["c","_","d","_","c"],
+      ["_","_","_","_","_"],
+      ["d","_","l","_","d"],
+	  ["_","_","_","_","_"],
+      ["c","_","d","_","c"]
+    ],
+    [
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+      ["i","i","i","i","i"],
+	  ["i","i","i","i","i"],
+      ["i","i","i","i","i"]
+    ]
+  ]
+}

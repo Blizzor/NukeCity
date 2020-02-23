@@ -1,0 +1,39 @@
+{
+  "outputs": [
+    {
+      "target": "black",
+      "weight": 1000,
+      "id": "OD:oreCoal"
+    },
+    {
+      "target": "white",
+      "weight": 750,
+      "id": "OD:oreIron"
+    },
+    {
+      "target": "red",
+      "weight": 515,
+      "id": "OD:oreRedstone"
+    },
+    {
+      "target": "yellow",
+      "weight": 311,
+      "id": "OD:oreGold"
+    },
+	{
+      "target": "crystal",
+      "weight": 200,
+      "id": "environmentaltech:litherite_crystal"
+    },
+    {
+      "target": "crystal",
+      "weight": 150,
+      "id": "environmentaltech:erodium_crystal"
+    },
+    {
+      "target": "black",
+      "weight": 8,
+      "id": "environmentaltech:lonsdaleite_crystal"
+    }
+  ]
+}
